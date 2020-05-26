@@ -1,0 +1,65 @@
+#app {
+  text-align: center;
+}
+img {
+  border: 2px solid rgb(118, 109, 255);
+  width: 95%;
+  margin-top: 15px;
+  display: block;
+  margin-bottom: 10px;
+}
+.card-head {
+  background-color: #ffffff;
+}
+.btn-process {
+  border: 2px solid rgb(118, 109, 255);
+  width: 165px;
+  height: 50px;
+  margin-top: 15px;
+}
+input[type="file"] {
+  display: none;
+}
+.custom-file-upload {
+  border: 2px solid rgb(118, 109, 255);
+  display: inline-block;
+  padding: 6px 12px;
+  cursor: pointer;
+}
+.grid-container {
+  display: grid;
+  grid-template-columns: auto 70% auto;
+  grid-gap: 10px;
+  padding: 0px;
+}
+.grid-container-det {
+  display: grid;
+  grid-template-columns: 45% 5% 45%;
+  grid-gap: 10px;
+  padding: 0px;
+}
+#rcorners2 {
+  border-radius: 30px;
+  border: 2px solid rgb(118, 109, 255);
+  padding: 20px;
+  padding-top: 10px;
+  width: auto;
+  height: auto;
+  background-color: #ffffff;
+}
+.bg-gra {
+  background-image: -webkit-linear-gradient(
+    0deg,
+    rgb(118, 109, 255) 0%,
+    rgb(136, 243, 255) 100%
+  );
+}
+
+.img-soo {
+  margin-top: 20px;
+  margin: auto;
+  border-radius: 60%;
+  width: auto;
+  height: 200px;
+  border: 5px solid #bfbfbf;
+}
