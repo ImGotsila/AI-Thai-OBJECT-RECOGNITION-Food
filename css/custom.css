@@ -32,12 +32,7 @@ input[type="file"] {
   grid-gap: 10px;
   padding: 0px;
 }
-.grid-container-det {
-  display: grid;
-  grid-template-columns: 45% 5% 45%;
-  grid-gap: 10px;
-  padding: 0px;
-}
+
 #rcorners2 {
   border-radius: 30px;
   border: 2px solid rgb(118, 109, 255);
