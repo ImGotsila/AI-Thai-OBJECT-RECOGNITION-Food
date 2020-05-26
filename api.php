@@ -21,15 +21,14 @@ if (isset($_GET['pathImg'])) {
       CURLOPT_POSTFIELDS => $data,
       CURLOPT_HTTPHEADER => array(
         "Content-Type: application/json",
-        "apikey: 6M75xhanxA84GoBEWUQ8qDmIrUxmqMpe"
+        "apikey: ํYour api Key"
       )
     ));
     
     $response = curl_exec($curl);
     $err = curl_error($curl);
-    
     curl_close($curl);
-    
+  
     if ($err) {
       echo "cURL Error #:" . $err;
     } else {
